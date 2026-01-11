@@ -5,8 +5,8 @@ export default function Contact() {
             <p>Feel free to reach out</p>
             <div className="socials">
                 <a href="mailto:evtome05@gmail.com">Email</a>
-                <a href="https://github.com/" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/evan-tome" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/evan-tome" target="_blank">LinkedIn</a>
             </div>
         </section>
     );

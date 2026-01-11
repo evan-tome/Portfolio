@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section className = "hero">
-            <h2>Software Engineer & Problem Solver</h2>
+            <h2>Evan Tome</h2>
             <p>
                 Passionate about building software solutions.
             </p>
