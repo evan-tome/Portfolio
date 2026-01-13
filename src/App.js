@@ -8,11 +8,9 @@ import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
-    const [dark, setDark] = useState(false);
-
     return (
-        <div className={dark ? "app dark" : "app"}>
-            <Navbar dark={dark} setDark={setDark} />
+        <div>
+            <Navbar />
             <Hero />
             <About />
             <Projects />

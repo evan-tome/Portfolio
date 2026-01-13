@@ -1,4 +1,4 @@
-export default function NavBar({ dark, setDark }) {
+export default function NavBar() {
     return (
         <nav className="navbar">
             <h1 className="logo">Evan Tome</h1>
@@ -6,7 +6,6 @@ export default function NavBar({ dark, setDark }) {
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
-                <button onClick={() => setDark(!dark)} className="theme-toggle">{dark ? "☀️" : "🌙"}</button>
             </div>
         </nav>
     );

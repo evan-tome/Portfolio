@@ -7,18 +7,13 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  transition: background 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
   background: #fff;
   color: #222;
 }
 
 h3 {
   line-height: 3;
-}
-
-.app.dark {
-  background: #111;
-  color: #eee;
 }
 
 .navbar {
@@ -29,7 +24,7 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 100;
-  transition: background 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .logo {
@@ -100,7 +95,7 @@ h3 {
   font-weight: 600;
   text-decoration: none;
   border-radius: 50px;
-  transition: background 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
@@ -125,17 +120,12 @@ h3 {
   border-radius: 12px;
   padding: 2rem;
   background: #f9f9f9;
-  transition: transform 0.3s, box-shadow 0.3s, background 0.3s, border-color 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, border-color 0.3s;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-.app.dark .project-card {
-  background: #222;
-  border-color: #444;
 }
 
 .contact .socials {
@@ -162,16 +152,6 @@ h3 {
   font-size: 0.9rem;
   background: inherit;
   transition: border-color 0.3s;
-}
-
-/* Dark mode adjustments */
-.app.dark .navbar,
-.app.dark .footer {
-  border-color: #444;
-}
-
-.app.dark .hero {
-  background: linear-gradient(135deg, #333 0%, #555 100%);
 }
 
 @media (max-width: 768px) {
