@@ -1,7 +1,9 @@
 export default function Footer() {
     return (
         <footer className="footer">
-            <p>Evan Tome</p>
+            <p>
+                <span>Evan Tome</span> &nbsp;·&nbsp; © {new Date().getFullYear()}
+            </p>
         </footer>
     );
 }

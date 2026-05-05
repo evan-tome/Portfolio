@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path C:\\\\Users\\\\evant\\\\portfolio-web -MaxDepth 1 | ForEach-Object { $_.Name })",
+      "Bash(Remove-Item \"c:\\\\Users\\\\evant\\\\portfolio-web\\\\src\\\\logo.svg\", \"c:\\\\Users\\\\evant\\\\portfolio-web\\\\src\\\\App.test.js\", \"c:\\\\Users\\\\evant\\\\portfolio-web\\\\src\\\\setupTests.js\", \"c:\\\\Users\\\\evant\\\\portfolio-web\\\\src\\\\reportWebVitals.js\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}

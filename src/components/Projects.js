@@ -6,43 +6,43 @@ export default function Projects() {
       title: "Calendar Web App",
       description: "Dynamic calendar application with event booking and navigation.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/yourusername/calendar-app",
+      github: "https://github.com/evan-tome/calendar-application",
     },
     {
       title: "FreshLens",
       description: "Meal planning tool that generates recipes from fridge photos.",
       tech: ["React", "Node.js", "CSS"],
-      github: "https://github.com/yourusername/freshlens",
+      github: "https://github.com/evan-tome/freshlens",
     },
     {
       title: "Minezone Website",
       description: "Promotional website for a Minecraft server.",
       tech: ["React", "Node.js", "CSS"],
-      github: "https://github.com/yourusername/minezone-website",
+      github: "https://github.com/evan-tome/minezone-website",
     },
     {
       title: "Portfolio Website",
       description: "Portfolio website.",
       tech: ["React", "Node.js", "CSS"],
-      github: "https://github.com/yourusername/portfolio-website",
+      github: "https://github.com/evan-tome/portfolio",
     },
     {
       title: "Race-cycle E-Waste Tracker",
-      description: "Full-stack website for locating e-waste recycling centres and tracking recycled material in a gamified manner.",
+      description: "Full stack website for locating e-waste recycling centres and tracking recycled material in a gamified manner.",
       tech: ["React", "Node.js", "CSS", "MySQL"],
-      github: "https://github.com/yourusername/portfolio-website",
+      github: "https://github.com/evan-tome/ewaste-tracker",
     },
     {
       title: "EV DAQ Interface",
-      description: "Web interface for real-time EV sensor data via serial communication.",
+      description: "Web interface for live EV sensor data via serial communication.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/yourusername/ev-daq-interface",
+      github: "https://github.com/evan-tome/ev-daq-interface",
     },
     {
       title: "U-Challenge",
-      description: "Trivia and mini-games platform for inter-university competition.",
+      description: "Trivia and mini games platform for interuniversity competition.",
       tech: ["JavaScript", "PHP", "MySQL"],
-      github: "https://github.com/yourusername/u-challenge",
+      github: "https://github.com/evan-tome/u-challenge",
     },
   ];
 
@@ -56,7 +56,8 @@ export default function Projects() {
 
   return (
     <section id="projects" className="projects">
-      <h3>Projects</h3>
+      <div className="section-label">{'// Projects'}</div>
+      <h3>What I've Built</h3>
 
       <div className="filter-bar">
         {allTech.map(t => (
